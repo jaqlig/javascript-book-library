@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Library!</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&family=Zilla+Slab:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <h1>The Great Library of JavaScript</h1>
+
+    <form class="add">
+        <input type="text" placeholder="Title" id="title">
+        <input type="text" placeholder="Author name" id="author">
+        <input type="number" placeholder="Number of pages" id="pages">
+
+        <p>Have you read it?</p>
+        <div>
+            <div>
+                <input type="radio" id="read" value="read" name="readStatus">
+                <label for="read">Yes!</label></div>
+            <div>
+                <input type="radio" id="unread" value="unread" name="readStatus" checked>
+                <label for="unread">Nope</label></div>
+        </div>
+        <input type="button" id="add" value="Add a book">
+    </form>
+
+    <div id="shelf"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

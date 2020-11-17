@@ -1,0 +1,84 @@
+body {
+    font-family: 'Zilla Slab';
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Zilla Slab Highlight';
+}
+
+.add {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border: solid 2px #aaa;
+    background-color: #fdfdfd;
+    border-radius: 8px;
+}
+
+.add input {
+    font-family: 'Zilla Slab';
+}
+
+.add * {
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.add div {
+    margin-top: 0;
+}
+
+.add div div label:hover {
+    background-color: #ddd;
+}
+
+.book {
+    border-radius: 8px;
+    border: solid 1px #ccc;
+    margin: 10px;
+    width: 250px;
+    font-size: 17px;
+    background-color: #fefefe;
+}
+
+#shelf {
+    margin: 10px auto;
+    max-width: 1360px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.book p {
+    margin-left: 6px;
+}
+
+.icon-trash,
+.icon-eye {
+    width: 23px;
+    height: 23px;
+}
+
+.icon-trash:hover {
+    background-color: rgba(255, 0, 0, 0.541);
+    border-radius: 7px;
+}
+
+.icon-eye:hover {
+    background-color: rgba(255, 166, 0, 0.541);
+    border-radius: 7px;
+}
+
+.readStatus {
+    width: 14px;
+    height: 14px;
+    background-color: green;
+
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-evenly;
+}
